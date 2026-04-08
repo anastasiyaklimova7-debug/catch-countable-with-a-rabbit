@@ -583,7 +583,7 @@
         /* Адаптировали область столкновений (хитбокс) под увеличенного кролика */
         const heroLeft = heroRect.left - gameRect.left + 70; 
         const heroRight = heroRect.right - gameRect.left - 70;
-        const heroTop = heroRect.top - gameRect.top + 80;
+        const heroTop = heroRect.top - gameRect.top + 150; /* Сильно опустили верхнюю границу, чтобы ушки не мешали */
         const heroBottom = heroRect.bottom - gameRect.top;
 
         const triggerY = rect.height / 3.5;
